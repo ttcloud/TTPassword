@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003F4B641D17A4CA00098ECB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 003F4B631D17A4CA00098ECB /* main.m */; };
+		003F4B671D17A4CA00098ECB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 003F4B661D17A4CA00098ECB /* AppDelegate.m */; };
+		003F4B6A1D17A4CA00098ECB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 003F4B691D17A4CA00098ECB /* ViewController.m */; };
+		003F4B6D1D17A4CA00098ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003F4B6B1D17A4CA00098ECB /* Main.storyboard */; };
+		003F4B6F1D17A4CA00098ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 003F4B6E1D17A4CA00098ECB /* Assets.xcassets */; };
+		003F4B721D17A4CA00098ECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003F4B701D17A4CA00098ECB /* LaunchScreen.storyboard */; };
+		003F4B7D1D17A4CA00098ECB /* TTPasswordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 003F4B7C1D17A4CA00098ECB /* TTPasswordTests.m */; };
+		003F4B881D17A4CA00098ECB /* TTPasswordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 003F4B871D17A4CA00098ECB /* TTPasswordUITests.m */; };
+		003F4B981D17AE9F00098ECB /* TTPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 003F4B971D17AE9F00098ECB /* TTPasswordView.m */; };
+		003F4B9B1D17B0A800098ECB /* PopPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 003F4B9A1D17B0A800098ECB /* PopPasswordView.m */; };
+		003F4B9E1D17CFF200098ECB /* PasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 003F4B9D1D17CFF200098ECB /* PasswordViewController.m */; };
+		008374AA1D17F0F500F7BF36 /* 关闭.png in Resources */ = {isa = PBXBuildFile; fileRef = 008374A91D17F0F500F7BF36 /* 关闭.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		003F4B791D17A4CA00098ECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 003F4B571D17A4CA00098ECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 003F4B5E1D17A4CA00098ECB;
+			remoteInfo = TTPassword;
+		};
+		003F4B841D17A4CA00098ECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 003F4B571D17A4CA00098ECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 003F4B5E1D17A4CA00098ECB;
+			remoteInfo = TTPassword;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003F4B5F1D17A4CA00098ECB /* TTPassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTPassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		003F4B631D17A4CA00098ECB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		003F4B651D17A4CA00098ECB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		003F4B661D17A4CA00098ECB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		003F4B681D17A4CA00098ECB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		003F4B691D17A4CA00098ECB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		003F4B6C1D17A4CA00098ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		003F4B6E1D17A4CA00098ECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		003F4B711D17A4CA00098ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		003F4B731D17A4CA00098ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		003F4B781D17A4CA00098ECB /* TTPasswordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTPasswordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		003F4B7C1D17A4CA00098ECB /* TTPasswordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTPasswordTests.m; sourceTree = "<group>"; };
+		003F4B7E1D17A4CA00098ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		003F4B831D17A4CA00098ECB /* TTPasswordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTPasswordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		003F4B871D17A4CA00098ECB /* TTPasswordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTPasswordUITests.m; sourceTree = "<group>"; };
+		003F4B891D17A4CA00098ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		003F4B961D17AE9F00098ECB /* TTPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTPasswordView.h; sourceTree = "<group>"; };
+		003F4B971D17AE9F00098ECB /* TTPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTPasswordView.m; sourceTree = "<group>"; };
+		003F4B991D17B0A800098ECB /* PopPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopPasswordView.h; sourceTree = "<group>"; };
+		003F4B9A1D17B0A800098ECB /* PopPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopPasswordView.m; sourceTree = "<group>"; };
+		003F4B9C1D17CFF200098ECB /* PasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordViewController.h; sourceTree = "<group>"; };
+		003F4B9D1D17CFF200098ECB /* PasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordViewController.m; sourceTree = "<group>"; };
+		003F4B9F1D17D2B700098ECB /* TTConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTConst.h; sourceTree = "<group>"; };
+		008374A91D17F0F500F7BF36 /* 关闭.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关闭.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		003F4B5C1D17A4CA00098ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003F4B751D17A4CA00098ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003F4B801D17A4CA00098ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		003F4B561D17A4CA00098ECB = {
+			isa = PBXGroup;
+			children = (
+				003F4B611D17A4CA00098ECB /* TTPassword */,
+				003F4B7B1D17A4CA00098ECB /* TTPasswordTests */,
+				003F4B861D17A4CA00098ECB /* TTPasswordUITests */,
+				003F4B601D17A4CA00098ECB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		003F4B601D17A4CA00098ECB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				003F4B5F1D17A4CA00098ECB /* TTPassword.app */,
+				003F4B781D17A4CA00098ECB /* TTPasswordTests.xctest */,
+				003F4B831D17A4CA00098ECB /* TTPasswordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		003F4B611D17A4CA00098ECB /* TTPassword */ = {
+			isa = PBXGroup;
+			children = (
+				003F4B951D17AA7000098ECB /* PasswordView */,
+				003F4B651D17A4CA00098ECB /* AppDelegate.h */,
+				003F4B661D17A4CA00098ECB /* AppDelegate.m */,
+				003F4B681D17A4CA00098ECB /* ViewController.h */,
+				003F4B691D17A4CA00098ECB /* ViewController.m */,
+				003F4B9C1D17CFF200098ECB /* PasswordViewController.h */,
+				003F4B9D1D17CFF200098ECB /* PasswordViewController.m */,
+				003F4B6B1D17A4CA00098ECB /* Main.storyboard */,
+				003F4B6E1D17A4CA00098ECB /* Assets.xcassets */,
+				003F4B701D17A4CA00098ECB /* LaunchScreen.storyboard */,
+				003F4B731D17A4CA00098ECB /* Info.plist */,
+				003F4B621D17A4CA00098ECB /* Supporting Files */,
+			);
+			path = TTPassword;
+			sourceTree = "<group>";
+		};
+		003F4B621D17A4CA00098ECB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				003F4B631D17A4CA00098ECB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		003F4B7B1D17A4CA00098ECB /* TTPasswordTests */ = {
+			isa = PBXGroup;
+			children = (
+				003F4B7C1D17A4CA00098ECB /* TTPasswordTests.m */,
+				003F4B7E1D17A4CA00098ECB /* Info.plist */,
+			);
+			path = TTPasswordTests;
+			sourceTree = "<group>";
+		};
+		003F4B861D17A4CA00098ECB /* TTPasswordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				003F4B871D17A4CA00098ECB /* TTPasswordUITests.m */,
+				003F4B891D17A4CA00098ECB /* Info.plist */,
+			);
+			path = TTPasswordUITests;
+			sourceTree = "<group>";
+		};
+		003F4B951D17AA7000098ECB /* PasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				008374A91D17F0F500F7BF36 /* 关闭.png */,
+				003F4B961D17AE9F00098ECB /* TTPasswordView.h */,
+				003F4B971D17AE9F00098ECB /* TTPasswordView.m */,
+				003F4B991D17B0A800098ECB /* PopPasswordView.h */,
+				003F4B9A1D17B0A800098ECB /* PopPasswordView.m */,
+				003F4B9F1D17D2B700098ECB /* TTConst.h */,
+			);
+			name = PasswordView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		003F4B5E1D17A4CA00098ECB /* TTPassword */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 003F4B8C1D17A4CA00098ECB /* Build configuration list for PBXNativeTarget "TTPassword" */;
+			buildPhases = (
+				003F4B5B1D17A4CA00098ECB /* Sources */,
+				003F4B5C1D17A4CA00098ECB /* Frameworks */,
+				003F4B5D1D17A4CA00098ECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTPassword;
+			productName = TTPassword;
+			productReference = 003F4B5F1D17A4CA00098ECB /* TTPassword.app */;
+			productType = "com.apple.product-type.application";
+		};
+		003F4B771D17A4CA00098ECB /* TTPasswordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 003F4B8F1D17A4CA00098ECB /* Build configuration list for PBXNativeTarget "TTPasswordTests" */;
+			buildPhases = (
+				003F4B741D17A4CA00098ECB /* Sources */,
+				003F4B751D17A4CA00098ECB /* Frameworks */,
+				003F4B761D17A4CA00098ECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				003F4B7A1D17A4CA00098ECB /* PBXTargetDependency */,
+			);
+			name = TTPasswordTests;
+			productName = TTPasswordTests;
+			productReference = 003F4B781D17A4CA00098ECB /* TTPasswordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		003F4B821D17A4CA00098ECB /* TTPasswordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 003F4B921D17A4CA00098ECB /* Build configuration list for PBXNativeTarget "TTPasswordUITests" */;
+			buildPhases = (
+				003F4B7F1D17A4CA00098ECB /* Sources */,
+				003F4B801D17A4CA00098ECB /* Frameworks */,
+				003F4B811D17A4CA00098ECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				003F4B851D17A4CA00098ECB /* PBXTargetDependency */,
+			);
+			name = TTPasswordUITests;
+			productName = TTPasswordUITests;
+			productReference = 003F4B831D17A4CA00098ECB /* TTPasswordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		003F4B571D17A4CA00098ECB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ttcloud;
+				TargetAttributes = {
+					003F4B5E1D17A4CA00098ECB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					003F4B771D17A4CA00098ECB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 003F4B5E1D17A4CA00098ECB;
+					};
+					003F4B821D17A4CA00098ECB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 003F4B5E1D17A4CA00098ECB;
+					};
+				};
+			};
+			buildConfigurationList = 003F4B5A1D17A4CA00098ECB /* Build configuration list for PBXProject "TTPassword" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 003F4B561D17A4CA00098ECB;
+			productRefGroup = 003F4B601D17A4CA00098ECB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				003F4B5E1D17A4CA00098ECB /* TTPassword */,
+				003F4B771D17A4CA00098ECB /* TTPasswordTests */,
+				003F4B821D17A4CA00098ECB /* TTPasswordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		003F4B5D1D17A4CA00098ECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003F4B721D17A4CA00098ECB /* LaunchScreen.storyboard in Resources */,
+				008374AA1D17F0F500F7BF36 /* 关闭.png in Resources */,
+				003F4B6F1D17A4CA00098ECB /* Assets.xcassets in Resources */,
+				003F4B6D1D17A4CA00098ECB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003F4B761D17A4CA00098ECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003F4B811D17A4CA00098ECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		003F4B5B1D17A4CA00098ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003F4B6A1D17A4CA00098ECB /* ViewController.m in Sources */,
+				003F4B9B1D17B0A800098ECB /* PopPasswordView.m in Sources */,
+				003F4B981D17AE9F00098ECB /* TTPasswordView.m in Sources */,
+				003F4B671D17A4CA00098ECB /* AppDelegate.m in Sources */,
+				003F4B641D17A4CA00098ECB /* main.m in Sources */,
+				003F4B9E1D17CFF200098ECB /* PasswordViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003F4B741D17A4CA00098ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003F4B7D1D17A4CA00098ECB /* TTPasswordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003F4B7F1D17A4CA00098ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003F4B881D17A4CA00098ECB /* TTPasswordUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		003F4B7A1D17A4CA00098ECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 003F4B5E1D17A4CA00098ECB /* TTPassword */;
+			targetProxy = 003F4B791D17A4CA00098ECB /* PBXContainerItemProxy */;
+		};
+		003F4B851D17A4CA00098ECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 003F4B5E1D17A4CA00098ECB /* TTPassword */;
+			targetProxy = 003F4B841D17A4CA00098ECB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		003F4B6B1D17A4CA00098ECB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				003F4B6C1D17A4CA00098ECB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		003F4B701D17A4CA00098ECB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				003F4B711D17A4CA00098ECB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		003F4B8A1D17A4CA00098ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		003F4B8B1D17A4CA00098ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		003F4B8D1D17A4CA00098ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTPassword/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tt.TTPassword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		003F4B8E1D17A4CA00098ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTPassword/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tt.TTPassword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		003F4B901D17A4CA00098ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TTPasswordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tt.TTPasswordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTPassword.app/TTPassword";
+			};
+			name = Debug;
+		};
+		003F4B911D17A4CA00098ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TTPasswordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tt.TTPasswordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTPassword.app/TTPassword";
+			};
+			name = Release;
+		};
+		003F4B931D17A4CA00098ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TTPasswordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tt.TTPasswordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TTPassword;
+			};
+			name = Debug;
+		};
+		003F4B941D17A4CA00098ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TTPasswordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tt.TTPasswordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TTPassword;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		003F4B5A1D17A4CA00098ECB /* Build configuration list for PBXProject "TTPassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				003F4B8A1D17A4CA00098ECB /* Debug */,
+				003F4B8B1D17A4CA00098ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		003F4B8C1D17A4CA00098ECB /* Build configuration list for PBXNativeTarget "TTPassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				003F4B8D1D17A4CA00098ECB /* Debug */,
+				003F4B8E1D17A4CA00098ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		003F4B8F1D17A4CA00098ECB /* Build configuration list for PBXNativeTarget "TTPasswordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				003F4B901D17A4CA00098ECB /* Debug */,
+				003F4B911D17A4CA00098ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		003F4B921D17A4CA00098ECB /* Build configuration list for PBXNativeTarget "TTPasswordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				003F4B931D17A4CA00098ECB /* Debug */,
+				003F4B941D17A4CA00098ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 003F4B571D17A4CA00098ECB /* Project object */;
+}
